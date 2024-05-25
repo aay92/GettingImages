@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ls" translatesAutoresizingMaskIntoConstraints="NO" id="RoI-23-tbZ">
+                                <rect key="frame" x="55" y="328" width="282" height="257"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RoI-23-tbZ" secondAttribute="height" multiplier="282:257" id="AMm-ew-Wxh"/>
+                                    <constraint firstAttribute="height" constant="257" id="CTT-hZ-qHs"/>
+                                    <constraint firstAttribute="width" constant="282" id="hvr-WS-Swb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Loader" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QP0-90-HfN">
+                                <rect key="frame" x="87" y="311" width="218" height="47"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="33"/>
+                                <color key="textColor" red="0.22745099660000001" green="0.1725490093" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.73333334920000004" green="0.82745099070000006" blue="0.83529412749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="RoI-23-tbZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Q0V-Yh-PSD"/>
+                            <constraint firstItem="RoI-23-tbZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="269" id="SsJ-TU-Wxx"/>
+                            <constraint firstItem="RoI-23-tbZ" firstAttribute="top" secondItem="QP0-90-HfN" secondAttribute="bottom" constant="-30" id="cDA-W2-76y"/>
+                            <constraint firstItem="RoI-23-tbZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="ee4-RQ-F6H"/>
+                            <constraint firstItem="RoI-23-tbZ" firstAttribute="centerX" secondItem="QP0-90-HfN" secondAttribute="centerX" id="ogB-6I-5fe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RoI-23-tbZ" secondAttribute="trailing" constant="55" id="zvM-Xy-yXj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ls" width="512" height="512"/>
+    </resources>
+</document>
